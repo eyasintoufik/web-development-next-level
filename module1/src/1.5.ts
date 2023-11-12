@@ -6,6 +6,7 @@
 //     lastName : 'Persian'
 // }
 
+
 const user:  {
     company : 'Programming Hero' // -----type => literal types
     firstName : string;  
