@@ -25,6 +25,19 @@
 
 
     /// learn rest operator : 
+    /*
+    const greetFriends = (friend1 :string, friend2 :string , friend3: string ) =>{
+        console.log(`Hi ${friend1} ${friend2} ${friend3}`); 
+    }
+    greetFriends("abul", "kabul", "chabul" , "nabul"); // for nabul its showing error 
+    */
 
-
+    //solved this problem using rest operator : 
+   
+    const greetFriends = (...friend :string[]) =>{
+        friend.forEach((friend : string )=> {
+            console.log(`Hi ${friend}`) ; 
+        });
+    }
+    greetFriends("abul", "kabul", "chabul" , "nabul");
 }
