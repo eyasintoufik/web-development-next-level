@@ -20,4 +20,13 @@ const addInArrow = (num1: number , num2:number) : number=> num1 + num2;
 
 // Object --->function ----> method
 
-const 
+const poorUser = {
+    name: "Mazba", 
+    balance : 0, 
+    addBalance(balance : number ) : string {
+        return `My new balance is: ${this.balance + balance} `; 
+    }
+}
+
+const arr : number[] = [1,2 , 3, 4]; 
+const newArray = arr.map((elem : number) : number => elem * elem); 
