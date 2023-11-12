@@ -1,6 +1,6 @@
 {
     ///
-
+    
     const user = {
         id: 234, 
         name:{
@@ -18,11 +18,7 @@
     //array destructuring : 
 
     const myFriends :string[] = ['joey', 'phebe', 'ross', 'rachel ', 'chandler', 'Monica']; 
-    const [,,bestFriend ,...rest] = myFriends; 
-
-
-
-
+    const [,,bestFriend ,...rest] = myFriends; // ross will be the bestFriend ; 
 
     //
 }

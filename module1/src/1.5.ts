@@ -7,7 +7,7 @@
 // }
 
 
-const user:  {
+const user :  {
     company : 'Programming Hero' // -----type => literal types
     firstName : string;  
     middleName?: string; //optional type 
